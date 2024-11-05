@@ -12,7 +12,7 @@
 
 ### How to install GUI on FreeBSD?
 
-### How to swutch to root user?
+### How to switch to root user?
 
 ### How to change sudo templates?
 
