@@ -1,7 +1,8 @@
 ### How to check your FreeBSD Version?
 
-```freebsd-version```
-```cat /etc/os-release```
+`freebsd-version`
+
+`cat /etc/os-release`
 
 ### How to Patch FreeBSD?
 
