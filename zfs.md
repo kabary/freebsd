@@ -36,4 +36,12 @@ You can run `df` to see where the pool is mounted by default.
 
 `zpool destroy archive-pool`
 
-### How
+### How to create a ZFS dataset snapshot?
+
+`zfs snapshot archive-pool/backup1@today`
+
+### How to list ZFS snapshots?
+
+`zfs list -t snapshot`
+
+
