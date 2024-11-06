@@ -2,7 +2,7 @@
 
 `zpool create archive-pool da1 da2 `
 
-### How to list all the current Zpools?
+### How to list all the current zpools?
 
 `zpool list`
 
