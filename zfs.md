@@ -24,6 +24,10 @@ You can run `df` to see where the pool is mounted by default.
 
 `zfs get mountpoint archive-pool/backup1`
 
+### How to set a new mountpoint for a ZFS dataset?
+
+`zfs set mountpoint=/mnt/backup1 archive-pool/backup1`
+
 ### How to delete a ZFS dataset?
 
 `zfs destroy archive-pool/backup1`
