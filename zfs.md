@@ -26,7 +26,7 @@ You can run `df` to see where the pool is mounted by default.
 
 ### How to delete a ZFS dataset?
 
-`zfs destroy archive-pool/backup1
+`zfs destroy archive-pool/backup1`
 
 ### How to delete a zpool?
 
