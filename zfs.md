@@ -14,4 +14,8 @@ You can run `df` to see where the pool is mounted by default.
 
 `zfs create archive-pool/backup1`
 
+### How to unmount a ZFS dataset?
+
+`zfs umount archive-pool/backup1`
+
 ### How
