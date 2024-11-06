@@ -10,4 +10,8 @@ You can run `df` to see where the pool is mounted by default.
 
 `zpool list`
 
+### How to create a ZFS dataset (filesystem)?
+
+`zfs create archive-pool/backup1`
+
 ### How
