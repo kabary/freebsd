@@ -2,7 +2,9 @@
 
 `zpool create archive-pool da1 da2 `
 
-`df` && `cd /archive-pool`
+You can run `df` to see where the pool is mounted by default.
+
+`cd /archive-pool`
 
 ### How to list all the current zpools?
 
