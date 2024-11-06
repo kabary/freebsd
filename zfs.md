@@ -1,4 +1,4 @@
-### How to create a Zpool with two disks?
+### How to create a zpool with two disks?
 
 `zpool create archive-pool da1 da2 `
 
