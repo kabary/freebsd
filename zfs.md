@@ -61,6 +61,12 @@ You can run `df` to see where the pool is mounted by default.
 
 `zpool clear archive-pool/backup1`
 
+### How to replace a disk in a running pool?
+
+`zpool replace archive-pool da1 da2`
+
+
+
 
 
 
