@@ -47,3 +47,20 @@ You can run `df` to see where the pool is mounted by default.
 ### How to rollback to a snapshot?
 
 `zfs rollback archive-pool/backup1@today`
+
+### How to check the status of all the pools?
+
+`zpool status -x`
+
+### Scrubbing to check I/O errors and verify data integrity on pools?
+
+`zpool scrub archive-pool`
+`zpool status archive-pool`
+
+### How to clear zpool errors?
+
+`zpool clear archive-pool/backup1`
+
+
+
+
