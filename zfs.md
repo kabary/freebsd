@@ -46,4 +46,4 @@ You can run `df` to see where the pool is mounted by default.
 
 ### How to rollback to a snapshot?
 
-`zfs snapshot archive-pool/backup1@today`
+`zfs rollback archive-pool/backup1@today`
