@@ -55,6 +55,7 @@ You can run `df` to see where the pool is mounted by default.
 ### Scrubbing to check I/O errors and verify data integrity on pools?
 
 `zpool scrub archive-pool`
+
 `zpool status archive-pool`
 
 ### How to clear zpool errors?
